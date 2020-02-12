@@ -307,6 +307,7 @@ public class DateUtil {
 		Date date2 = new Date();
 		Date randomDate = getRandomDate(date1, date2);
 		System.out.println(format(randomDate, "yyyy-MM-dd HH:mm:ss"));
+		System.out.println(format(randomDate, "yyyy-MM-dd HH:mm:ss"));
 	}
 
 }
