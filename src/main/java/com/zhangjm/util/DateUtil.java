@@ -291,7 +291,7 @@ public class DateUtil {
 	}
 	
 	/**
-	 * 返回昨天的时间
+	 * 返回昨天的时间d 
 	 * @return
 	 */
 	public static Date getDateByBefore() { 
