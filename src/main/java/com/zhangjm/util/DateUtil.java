@@ -290,7 +290,15 @@ public class DateUtil {
 		return new Date(newDateLong);
 	}
 	
-	
+	public static Date getDateByBefore() { 
+		
+		//用系统时间初始化 Calender 
+		Calendar c = Calendar.getInstance(); 
+		//让系统时间减去 1 天 
+		c.add(Calendar.DAY_OF_MONTH, -1); 
+		return c.getTime(); 
+	}
+
 	public static void main(String[] args) {
 		Date date1= parse("2020-01-01 00:00:00", "yyyy-MM-dd HH:mm:ss");
 		Date date2 = new Date();
