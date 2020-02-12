@@ -290,8 +290,11 @@ public class DateUtil {
 		return new Date(newDateLong);
 	}
 	
+	/**
+	 * 返回昨天的时间
+	 * @return
+	 */
 	public static Date getDateByBefore() { 
-		
 		//用系统时间初始化 Calender 
 		Calendar c = Calendar.getInstance(); 
 		//让系统时间减去 1 天 
